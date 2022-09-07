@@ -42,7 +42,6 @@ public class Main {
 
         //HW 4
         int[] jarjestys = {5, 4, -7, -2, -1};
-        // int counter = 0;
 
         for (int v = jarjestys.length - 1; v >= 0; v--)
             System.out.println(jarjestys[v]);
