@@ -58,11 +58,11 @@ public class Main {
         int[] arrg = {4, -3, -5, 9, 1, 11};
         int m = 1;
 
-        for (int w = 0; w <= arrg.length; w++) {
+        for (int w = 0; w < arrg.length; w++) {
             if (arrg[w] < m)
                 System.out.println(arrg[w]);
         }
-        for (int q = 0; q <= arrg.length; q++) {
+        for (int q = 0; q < arrg.length; q++) {
             if (arrg[q] > m)
                 System.out.println(arrg[q]);
         }
