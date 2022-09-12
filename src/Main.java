@@ -39,7 +39,6 @@ public class Main {
         } else
             System.out.println(result);
 
-
         //HW 4
         int[] jarjestys = {5, 4, -7, -2, -1};
 
@@ -49,10 +48,9 @@ public class Main {
         // HW 5
         int[] arr1 = {-3, 2, 6, -11};
         int sum2 = 0;
-        for (int y = 0; y <= arr1.length; y++) {
+        for (int y = 0; y < arr1.length; y++) {
             sum2 = sum2 + arr1[y];
             System.out.println(sum2);
-
         }
         //HW 6
         int[] arrg = {4, -3, -5, 9, 1, 11};
@@ -66,6 +64,5 @@ public class Main {
             if (arrg[q] > m)
                 System.out.println(arrg[q]);
         }
-
     }
 }
